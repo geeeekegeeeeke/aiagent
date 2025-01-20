@@ -9,13 +9,14 @@ This repository provides an overview of AI agents, their implementation, and rel
   - [What are AI Agents?](#what-are-ai-agents)
   - [Retrieval-Augmented Generation (RAG)](#retrieval-augmented-generation-rag)
   - [Implementation Flow](#implementation-flow)
-  - [Advantages and Disadvantages](#advantages-and-disadvantages)
+  - [构建基于大型语言模型（LLM，如 GPT）的应用程序的框架如langchain Advantages and Disadvantages](#advantages-and-disadvantages)
   - [Open Source Projects](#open-source-projects)
   - [AutoAgent](#autoagent)
   - [国内大模型](#国内大模型)
   - [berkeley](#berkeley)
   - [References](#references)
   - [paper](#paper)
+  - [Contribution](#contribution)
 
 ## Introduction
 AI agents are systems capable of autonomously performing tasks on behalf of users by designing workflows and utilizing available tools.
@@ -32,7 +33,7 @@ RAG combines traditional information retrieval systems with generative large lan
 ![alt text](images/image2.png)
 *Flowchart of AI Agent Implementation*
 
-## Advantages and Disadvantages
+## 构建基于大型语言模型（LLM，如 GPT）的应用程序的框架如langchain Advantages and Disadvantages
 - **Advantages**: Enhanced task performance, real-time information retrieval, and adaptability.
 - **Disadvantages**: Complexity in implementation and potential over-reliance on AI.
 
@@ -53,6 +54,7 @@ RAG combines traditional information retrieval systems with generative large lan
 
 - [Cify](https://dify.ai/)
 - [Coze](https://coze.com/)
+- [FastGPT](https://tryfastgpt.ai/)
 - [MCP](https://modelcontextprotocol.io/introduction)
   
 ## AutoAgent
@@ -65,7 +67,7 @@ RAG combines traditional information retrieval systems with generative large lan
 零一万物、百川智能、智谱 AI、月之暗面、Minimax、阶跃星辰、DeepSeek
 [极客时间:] (https://time.geekbang.org/column/article/820266)
 
-## berkeley
+## berkeley CS294/194-196
 Course Description
 In this class, we will introduce foundations of Large Language Models (LLMs), discuss the infrastructure, tooling, and best practices for building and running applications with LLMs, and explore the risks and challenges with these technologies and how we can build towards a responsible and democratized and decentralized future with AI. 
 [CS294/194-196](https://rdi.berkeley.edu/responsible-genai/f23)
@@ -80,5 +82,17 @@ In this class, we will introduce foundations of Large Language Models (LLMs), di
 
 ## paper
 - [HuggingGPT: Solving AI Tasks with ChatGPT and its Friends in Hugging Face](https://arxiv.org/pdf/2303.17580)
-- []()
+- [TradeExpert-一种基于专家混合模型（Mixture of Experts, MoE）的框架](https://arxiv.org/html/2411.00782v1)
+- [TradingAgents: Multi-Agents LLM Financial Trading Framework-一种全新的股票交易框架](https://arxiv.org/html/2412.20138v3)
+- [Google发布的继Transformer架构之后的继任者 TITANS](https://arxiv.org/pdf/2501.00663v1)
+
+
+## Contribution 
+
+- First, fork and think about which category the work should belong to.
+- Second, use the same format as the others to discribe the work.
+- pull the requirst.
+
+
+**Don't worry if you put all these wrong, we will fix them for you.** Just contribute and promote your awesome work here!
 
